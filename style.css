@@ -7,7 +7,6 @@
   --font: 'Karla', sans-serif;
   --delay: .3s;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -20,8 +19,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background: black;
-  /*background-image: url(); */
+  background: rgb(242, 180, 212);
+ background-image: url(shutterstock_2229886135_5.jpg);
 }
 
 #profilePicture,
@@ -44,7 +43,7 @@ body {
   font-family: var(--font);
   width: 100%;
   text-align: center;
-  text-decoration: none;
+  text-decoration: wavy;
 }
 
 #links {
@@ -105,6 +104,7 @@ body {
   background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+
 
 
 /*-------------------------animations-----------------------*/
